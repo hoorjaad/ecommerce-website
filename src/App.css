@@ -1,0 +1,29 @@
+.btn-inverse {
+  background-color: #ffe115 !important;
+  color: #2d3a4b;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  border-radius: 0px;
+}
+
+.btn-inverse:hover {
+  background-color: #2d3a4b !important;
+  color: #ffe115;
+}
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Aligns content to the left */
+  /* Adjust left padding as needed */
+}
+.card {
+  border: none !important; /* Removes border */
+  border-radius: 0 !important; /* Removes rounded corners */
+}
